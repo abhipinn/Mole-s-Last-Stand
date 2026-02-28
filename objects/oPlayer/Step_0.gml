@@ -1,0 +1,57 @@
+x_speed = 0 
+
+y_speed = 0 
+
+
+if (keyboard_check(ord("D"))) { // if the d key is pressed 
+
+    x_speed = movement_speed // add the movement speed to the x_speed variable 
+
+} 
+
+if (keyboard_check(ord("A"))) { 
+
+    x_speed = -movement_speed 
+
+} 
+
+
+if (keyboard_check(ord("W"))) { 
+
+    y_speed = -movement_speed 
+
+} 
+
+
+if (keyboard_check(ord("S"))) { 
+
+    y_speed = movement_speed 
+
+}
+
+
+
+if(x_speed < 0) { // if heidi is moving to the left
+
+    image_xscale = 1 // make the sprite normal, what heidi already looks like
+
+} else if (x_speed > 0) { // but if shes moving to the right
+
+    image_xscale = -1 // flip heidi's sprite
+
+}
+move_and_collide(x_speed,y_speed,oSolid)
+if x<0 {
+x=940
+}
+if x>960 {
+x=20
+}
+if y<0 {
+y=520
+}
+if y>540 {
+y=20
+}
+if kill_count==3{room_goto(Room2)}
+	

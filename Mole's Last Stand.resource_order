@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[
+    {"name":"objects","order":2,"path":"folders/objects.yy",},
+    {"name":"sprite","order":1,"path":"folders/sprite.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Object9","order":5,"path":"objects/Object9/Object9.yy",},
+    {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"oRock","order":2,"path":"objects/oRock/oRock.yy",},
+    {"name":"oSolid","order":3,"path":"objects/oSolid/oSolid.yy",},
+    {"name":"oSpawner","order":5,"path":"objects/oSpawner/oSpawner.yy",},
+    {"name":"oStone","order":4,"path":"objects/oStone/oStone.yy",},
+    {"name":"oSword","order":6,"path":"objects/oSword/oSword.yy",},
+    {"name":"textbox","order":4,"path":"objects/textbox/textbox.yy",},
+    {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
+    {"name":"sBG","order":3,"path":"sprites/sBG/sBG.yy",},
+    {"name":"sEnemy","order":1,"path":"sprites/sEnemy/sEnemy.yy",},
+    {"name":"sRock","order":2,"path":"sprites/sRock/sRock.yy",},
+    {"name":"sStone","order":4,"path":"sprites/sStone/sStone.yy",},
+    {"name":"sSworde","order":5,"path":"sprites/sSworde/sSworde.yy",},
+  ],
+}
